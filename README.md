@@ -12,6 +12,10 @@ This article will explore five different Kubernetes static code analysis alterna
 
 ## What are the different Kubernetes Static Analysis tools?
 
+- Listing out alternatives (meat of article)
+- Provide a listicle of alternatives, expanding on the points outlined in the introduction
+
+
 ### 1. Kube Score
 
 #### Covers installation, code snippets and screenshots
