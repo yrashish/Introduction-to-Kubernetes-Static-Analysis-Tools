@@ -1,6 +1,6 @@
 # Introduction to Kubernetes Static Analysis Tools
 
-Kubernetes emerged as a defacto framework for container orchestration. If you are running your application workloads on Kubernetes, then you know that Kubernetes manifests are the bread and butter of your cluster. Hence it is vital to ensure that we are not introducing vulnerability due to misconfiguration. To avoid any surprises in production, we should perform the static code analysis of Kubernetes manifests written in YAML the same way we do with other programming languages before the deployment. Yet you will find Kubernetes production deployments where Kubernetes configuration issues or potential security threats are discovered after the deployment.
+Kubernetes has become the leading framework for container orchestration. For those who use Kubernetes to manage their application workloads, it is essential to understand the importance of Kubernetes manifests, which serve as the foundation of the cluster. As misconfigurations in these manifests can introduce vulnerabilities, it is crucial to conduct a static code analysis of the YAML-based Kubernetes manifests prior to deployment. Despite this, some Kubernetes production deployments still experience configuration issues and security threats post-deployment.
 
 This article will explore five different Kubernetes static code analysis alternatives you can use to scan, analyze, and recommend best practices to create a secure and stable Kubernetes environment.
 
